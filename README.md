@@ -59,7 +59,7 @@ Mean conformer saved to outputs/aspirin.pdb
 1. **Parse & hydrogenate** the input SMILES (`Chem.MolFromSmiles` + `AddHs`).
 2. **Generate multiple conformers** with `EmbedMultipleConfs` (reproducible seed, chirality enforced, knowledge‑based torsions enabled).
 3. **Optimize** each conformer using MMFF (`MMFFOptimizeMolecule`).
-4. **(Optional) Align** conformers for analysis/visualization.
+4. **Align** conformers for analysis/visualization.
 5. **Compute the median conformer**: find the conformer with minimal squared distance to the mean atomic coordinates across all conformers.
 6. **Export** that conformer to PDB (`Chem.MolToPDBFile`).
 

@@ -1,9 +1,6 @@
 # RDKit Conformer Generator
 
-<img src="https://img.shields.io/badge/Python-3.12-blue?style=flat-square"/> 
-<img src="https://img.shields.io/badge/RDKit-dependency-green?style=flat-square"/> 
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/></a> 
-<img src="https://img.shields.io/github/last-commit/markusorsi/confgen?style=flat-square"/>
+<img src="https://img.shields.io/badge/Python-3.12-blue?style=flat-square"/> <img src="https://img.shields.io/badge/RDKit-dependency-green?style=flat-square"/> <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/></a> <img src="https://img.shields.io/github/last-commit/markusorsi/confgen?style=flat-square"/>
 
 The code is a tiny CLI RDKit wrapper that: (1) builds multiple conformers, (2) aligns them, (3) selects the conformer whose atomic coordinates are closest to the mean (the “median” conformer), and (4) writes that to `*.pdb`. I use this script to generate structures for high‑quality rendering in PyMol and create publication-ready images. Like here: 
 
